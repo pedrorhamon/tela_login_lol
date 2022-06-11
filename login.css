@@ -26,6 +26,7 @@
     width: 100%;
     max-width: 500px;
     min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
 }
 
 .logo_inicial {
@@ -36,11 +37,23 @@
 .login_title {
     color: var(--deep-grey);
     font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .login_label {
     display: block;
     margin-bottom: 20px;
     width: 100%;
+}
 
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
 }
