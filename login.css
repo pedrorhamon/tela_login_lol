@@ -27,3 +27,20 @@
     max-width: 500px;
     min-height: 100vh;
 }
+
+.logo_inicial {
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+.login_title {
+    color: var(--deep-grey);
+    font-size: 1.5rem;
+}
+
+.login_label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
