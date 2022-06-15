@@ -121,3 +121,7 @@
     display: flex;
     align-items: center;
 }
+
+.checkbox_input {
+    appearance: none;
+}
