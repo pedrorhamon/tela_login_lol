@@ -90,6 +90,17 @@
     width: 20px;
 }
 
+.button_login {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
 .checkbox_input{
     
 }
