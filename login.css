@@ -101,6 +101,14 @@
     border: none;
 }
 
-.checkbox_input{
-    
+.login_icons .button_login:nth-child(1) {
+    background-color: var(--blue);
+}
+
+.login_icons .button_login:nth-child(2) {
+    background-color: var(--light-grey);
+}
+
+.login_icons .button_login:nth-child(3) {
+    background-color: var(--black);
 }
