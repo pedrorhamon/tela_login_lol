@@ -124,5 +124,5 @@
 
 .checkbox_input {
     appearance: none;
-    display: block;
+    display: 100%;
 }
