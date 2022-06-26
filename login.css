@@ -124,7 +124,30 @@
 
 .checkbox_input {
     appearance: none;
-    display: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--light-grey);
+    margin-right: 8px;
+    border-radius: 3px;
+
+}
+
+.checkbox_input:checked {
+    background-color: var(--red);
+
+}
+
+.checkbox_input:checked::after {
+    content: "";
+    width: 5px;
+    height: 10px;
+    border: 3px solid white;
+    display: block;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+    width: 100px;
+
 }
 
 .button_login {
