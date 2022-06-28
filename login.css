@@ -162,9 +162,12 @@
     border: none;
     cursor: pointer;
     margin-bottom: 60px;
-    
+
 }
 
+.button_login png {
+    fill: white;
+}
 .link_login {
     
 }
